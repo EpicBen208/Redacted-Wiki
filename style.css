@@ -12,7 +12,7 @@
 .redacted_logo{
     position:fixed;
 
-    scale: 100%;
+    width: 50vw;
     top: 5%;
     left: 25%;
 }
@@ -54,6 +54,10 @@
 #sidebar>div{
     border: 1px solid black;
 }
+#sidebar>div>h1{
+    font-size:1.5vw;
+}
+
 #redacted{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -86,12 +90,11 @@
     margin-left: 15%;
 }
 #sidebartitle{
-    scale: 25%;
-    margin-left: -55%;
-    margin-top: -10%;
+    position: relative;
+    width: 14.8vw;
 }
 .redacted_emblum{
-    scale: 10%;
+    width:9vw;
     grid-column-start:15;
     grid-row-start: 3;
 }
